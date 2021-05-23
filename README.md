@@ -4,3 +4,5 @@ Technologies Used:
 1.HTML5 & CSS3 The layout was carefully designed using CSS3 BEM naming convention. CSS-Grid was used to comply with the newest standards of development. 
 2.JavaScript No frameworks were used in the development of this application. All functionality was built with vanilla ES6 JavaScript so feel free to dive into the code. 
 3.Webpack was used as the module bundler to incorporate Axios for fetching as well as BABEL for compiling the next-gen JavaScript.
+![image](https://user-images.githubusercontent.com/67628300/119264802-329c6980-bc02-11eb-9238-ad28fafd65e8.png)
+
