@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;400;700&display=swap" rel="stylesheet">       
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Khaate Raho // Search over 1,000,000 recipes</title>
+</head>
+
+<body>
+    <section class="header1">
+        <div class="main-text-box">
+            <div class="main-text">Khaate Raho</div>
+            
+        </div>
+        <div class="main-text-box1">
+            <div>Different recipes that will help you prepare your own!</div>
+            <ul>
+                <li>Search by ingredient name. eg: carrot, beetroot...</li>
+                <li></li><li></li>
+                <li>Search by dish name. eg: tacos, kebab...</li>
+            </ul>
+        </div>
+       
+    </section>
+    <section>
+    <div class="container">
+        
+        <header class="header">
+            <img src="" alt="" class="header__logo">
+            <form class="search">
+                <input type="text" class="search__field" placeholder="Search over 1,000,000 recipes...">
+                <button class="btn search__btn">
+                    <svg class="search__icon">
+                        <use href="img/icons.svg#icon-magnifying-glass"></use>
+                    </svg>
+                    <span>Search</span>
+                </button>
+            </form>
+            <div class="likes">
+                <div class="likes__field">
+                    <svg class="likes__icon">
+                        <use href="img/icons.svg#icon-heart"></use>
+                    </svg>
+                </div>
+                <div class="likes__panel">
+                    <ul class="likes__list">
+                        <!--
+                        <li>
+                            <a class="likes__link" href="#23456">
+                                <figure class="likes__fig">
+                                    <img src="img/test-1.jpg" alt="Test">
+                                </figure>
+                                <div class="likes__data">
+                                    <h4 class="likes__name">Pasta with Tomato ...</h4>
+                                    <p class="likes__author">The Pioneer Woman</p>
+                                </div>
+                            </a>
+                        </li>
+                        -->
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+
+        <div class="results">
+            <ul class="results__list">
+                <!--
+                <li>
+                    <a class="results__link results__link--active" href="#23456">
+                        <figure class="results__fig">
+                            <img src="img/test-1.jpg" alt="Test">
+                        </figure>
+                        <div class="results__data">
+                            <h4 class="results__name">Pasta with Tomato ...</h4>
+                            <p class="results__author">The Pioneer Woman</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="results__link" href="#76767">
+                        <figure class="results__fig">
+                            <img src="img/test-2.jpg" alt="Test">
+                        </figure>
+                        <div class="results__data">
+                            <h4 class="results__name">Pasta Salad with ...</h4>
+                            <p class="results__author">Spicy Perspective</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="results__link" href="#85354">
+                        <figure class="results__fig">
+                            <img src="img/test-3.jpg" alt="Test">
+                        </figure>
+                        <div class="results__data">
+                            <h4 class="results__name">Homemade Tomato ...</h4>
+                            <p class="results__author">All Recipes</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="results__link" href="#43563">
+                        <figure class="results__fig">
+                            <img src="img/test-4.jpg" alt="Test">
+                        </figure>
+                        <div class="results__data">
+                            <h4 class="results__name">Pasta with Tomato ...</h4>
+                            <p class="results__author">The Pioneer Woman</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="results__link" href="#2256665">
+                        <figure class="results__fig">
+                            <img src="img/test-5.jpg" alt="Test">
+                        </figure>
+                        <div class="results__data">
+                            <h4 class="results__name">Greek Pasta with ...</h4>
+                            <p class="results__author">Chow</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="results__link" href="#7567567">
+                        <figure class="results__fig">
+                            <img src="img/test-9.jpg" alt="Test">
+                        </figure>
+                        <div class="results__data">
+                            <h4 class="results__name">Cherry tomato, kale ...</h4>
+                            <p class="results__author">BBC Good Food</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="results__link" href="#5676577">
+                        <figure class="results__fig">
+                            <img src="img/test-7.jpg" alt="Test">
+                        </figure>
+                        <div class="results__data">
+                            <h4 class="results__name">Pasta with Fresh ...</h4>
+                            <p class="results__author">Chow</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="results__link" href="#98798">
+                        <figure class="results__fig">
+                            <img src="img/test-8.jpg" alt="Test">
+                        </figure>
+                        <div class="results__data">
+                            <h4 class="results__name">Buttery Tomato Pasta ...</h4>
+                            <p class="results__author">Simply Recipes</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="results__link" href="#5464646456">
+                        <figure class="results__fig">
+                            <img src="img/test-10.jpg" alt="Test">
+                        </figure>
+                        <div class="results__data">
+                            <h4 class="results__name">Pesto Pasta Salad ...</h4>
+                            <p class="results__author">Eats Well With Others</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="results__link" href="#345345435">
+                        <figure class="results__fig">
+                            <img src="img/test-6.jpg" alt="Test">
+                        </figure>
+                        <div class="results__data">
+                            <h4 class="results__name">Pasta with Roasted ...</h4>
+                            <p class="results__author">Two Peas and Their Pod</p>
+                        </div>
+                    </a>
+                </li>
+                -->
+            </ul>
+
+            <div class="results__pages">
+                <!--
+                <button class="btn-inline results__btn--prev">
+                    <svg class="search__icon">
+                        <use href="img/icons.svg#icon-triangle-left"></use>
+                    </svg>
+                    <span>Page 1</span>
+                </button>
+                <button class="btn-inline results__btn--next">
+                    <span>Page 3</span>
+                    <svg class="search__icon">
+                        <use href="img/icons.svg#icon-triangle-right"></use>
+                    </svg>
+                </button>
+                -->
+            </div>
+        </div>
+
+
+
+        <div class="recipe">
+
+            <!--
+            <figure class="recipe__fig">
+                <img src="img/test-1.jpg" alt="Tomato" class="recipe__img">
+                <h1 class="recipe__title">
+                    <span>Pasta with tomato cream sauce</span>
+                </h1>
+            </figure>
+            <div class="recipe__details">
+                <div class="recipe__info">
+                    <svg class="recipe__info-icon">
+                        <use href="img/icons.svg#icon-stopwatch"></use>
+                    </svg>
+                    <span class="recipe__info-data recipe__info-data--minutes">45</span>
+                    <span class="recipe__info-text"> minutes</span>
+                </div>
+                <div class="recipe__info">
+                    <svg class="recipe__info-icon">
+                        <use href="img/icons.svg#icon-man"></use>
+                    </svg>
+                    <span class="recipe__info-data recipe__info-data--people">4</span>
+                    <span class="recipe__info-text"> servings</span>
+                    <div class="recipe__info-buttons">
+                        <button class="btn-tiny">
+                            <svg>
+                                <use href="img/icons.svg#icon-circle-with-minus"></use>
+                            </svg>
+                        </button>
+                        <button class="btn-tiny">
+                            <svg>
+                                <use href="img/icons.svg#icon-circle-with-plus"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <button class="recipe__love">
+                    <svg class="header__likes">
+                        <use href="img/icons.svg#icon-heart-outlined"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="recipe__ingredients">
+                <ul class="recipe__ingredient-list">
+                    <li class="recipe__item">
+                        <svg class="recipe__icon">
+                            <use href="img/icons.svg#icon-check"></use>
+                        </svg>
+                        <div class="recipe__count">1000</div>
+                        <div class="recipe__ingredient">
+                            <span class="recipe__unit">g</span>
+                            pasta
+                        </div>
+                    </li>
+                    <li class="recipe__item">
+                        <svg class="recipe__icon">
+                            <use href="img/icons.svg#icon-check"></use>
+                        </svg>
+                        <div class="recipe__count">1/2</div>
+                        <div class="recipe__ingredient">
+                            <span class="recipe__unit">cup</span>
+                            ricotta cheese
+                        </div>
+                    </li>
+                    <li class="recipe__item">
+                        <svg class="recipe__icon">
+                            <use href="img/icons.svg#icon-check"></use>
+                        </svg>
+                        <div class="recipe__count">1</div>
+                        <div class="recipe__ingredient">
+                            <span class="recipe__unit"></span>
+                            can of tomatoes, whole or crushed
+                        </div>
+                    </li>
+                    <li class="recipe__item">
+                        <svg class="recipe__icon">
+                            <use href="img/icons.svg#icon-check"></use>
+                        </svg>
+                        <div class="recipe__count">1</div>
+                        <div class="recipe__ingredient">
+                            <span class="recipe__unit"></span>
+                            can tuna packed in olive oil
+                        </div>
+                    </li>
+                    <li class="recipe__item">
+                        <svg class="recipe__icon">
+                            <use href="img/icons.svg#icon-check"></use>
+                        </svg>
+                        <div class="recipe__count">1/2</div>
+                        <div class="recipe__ingredient">
+                            <span class="recipe__unit">cup</span>
+                            grated parmesan cheese
+                        </div>
+                    </li>
+                    <li class="recipe__item">
+                        <svg class="recipe__icon">
+                            <use href="img/icons.svg#icon-check"></use>
+                        </svg>
+                        <div class="recipe__count">1/4</div>
+                        <div class="recipe__ingredient">
+                            <span class="recipe__unit">cup</span>
+                            fresh basil, chopped or torn
+                        </div>
+                    </li>
+                </ul>
+                <button class="btn-small recipe__btn">
+                    <svg class="search__icon">
+                        <use href="img/icons.svg#icon-shopping-cart"></use>
+                    </svg>
+                    <span>Add to shopping list</span>
+                </button>
+            </div>
+            <div class="recipe__directions">
+                <h2 class="heading-2">How to cook it</h2>
+                <p class="recipe__directions-text">
+                    This recipe was carefully designed and tested by
+                    <span class="recipe__by">The Pioneer Woman</span>. Please check out directions at their website.
+                </p>
+                <a class="btn-small recipe__btn" href="http://thepioneerwoman.com/cooking/pasta-with-tomato-cream-sauce/" target="_blank">
+                    <span>Directions</span>
+                    <svg class="search__icon">
+                        <use href="img/icons.svg#icon-triangle-right"></use>
+                    </svg>
+                </a>
+            </div>
+            -->
+        </div>
+
+
+
+
+
+        <div class="shopping">
+            <h2 class="heading-2">My Shopping List</h2>
+
+            <ul class="shopping__list">
+
+                <!--
+                <li class="shopping__item">
+                    <div class="shopping__count">
+                        <input type="number" value="500" step="100">
+                        <p>g</p>
+                    </div>
+                    <p class="shopping__description">Pasta</p>
+                    <button class="shopping__delete btn-tiny">
+                        <svg>
+                            <use href="img/icons.svg#icon-circle-with-cross"></use>
+                        </svg>
+                    </button>
+                </li>
+                <li class="shopping__item">
+                    <div class="shopping__count">
+                        <input type="number" value="0.5" step="0.1">
+                        <p>cup</p>
+                    </div>
+                    <p class="shopping__description">Ricotta cheese</p>
+                    <button class="shopping__delete btn-tiny">
+                        <svg>
+                            <use href="img/icons.svg#icon-circle-with-cross"></use>
+                        </svg>
+                    </button>
+                </li>
+                <li class="shopping__item">
+                    <div class="shopping__count">
+                        <input type="number" value="3.5" step="0.1">
+                        <p>tbsp</p>
+                    </div>
+                    <p class="shopping__description">Toasted almond slices</p>
+                    <button class="shopping__delete btn-tiny">
+                        <svg>
+                            <use href="img/icons.svg#icon-circle-with-cross"></use>
+                        </svg>
+                    </button>
+                </li>
+                <li class="shopping__item">
+                    <div class="shopping__count">
+                        <input type="number" value="0.5" step="0.1">
+                        <p>tbsp</p>
+                    </div>
+                    <p class="shopping__description">Sea salt</p>
+                    <button class="shopping__delete btn-tiny">
+                        <svg>
+                            <use href="img/icons.svg#icon-circle-with-cross"></use>
+                        </svg>
+                    </button>
+                </li>
+                <li class="shopping__item">
+                    <div class="shopping__count">
+                        <input type="number" value="0.25" step="0.1">
+                        <p>cup</p>
+                    </div>
+                    <p class="shopping__description">Minced green onions</p>
+                    <button class="shopping__delete btn-tiny">
+                        <svg>
+                            <use href="img/icons.svg#icon-circle-with-cross"></use>
+                        </svg>
+                    </button>
+                </li>
+                <li class="shopping__item">
+                    <div class="shopping__count">
+                        <input type="number" value="45" step="10">
+                        <p>g</p>
+                    </div>
+                    <p class="shopping__description">Sesame seeds</p>
+                    <button class="shopping__delete btn-tiny">
+                        <svg>
+                            <use href="img/icons.svg#icon-circle-with-cross"></use>
+                        </svg>
+                    </button>
+                </li>
+                -->
+            </ul>
+
+            <div class="copyright">
+                &copy; by Yashvi Mehta. Powered by
+                <a href="http://food2fork.com" target="_blank" class="link">Food2Fork.com</a>.
+            </div>
+
+        </div>
+    </div>
+    </section>
+    <section class="daily-tip">
+        <br><br>
+        <div class="card-container">
+            <div class="card u-clearfix">
+              <div class="card-body">
+                <span class="card-number card-circle subtle">01</span>
+                <div class="card-author subtle" id="date"></div>
+               
+                <h2 class="card-title">Your Daily Health Tip</h2>
+                <div class="card-description subtle" id="tips"></div>
+                <div class="card-read"></div>
+              </div>
+              <img src="https://s15.postimg.cc/temvv7u4r/recipe.jpg" alt="" class="card-media" />
+            </div>
+            <div class="card-shadow"></div>
+          </div>
+        <div class="card-container2">
+            <div class="card u-clearfix">
+              <div class="card-body2">
+                <span class="card-number card-circle subtle">02</span>
+                <h2 class="card-title2">Cooking Tips and Tricks</h2>
+                <div class="card-read2"></div>
+                <div class="card-description2 subtle">
+                    <p>1.] Crack your eggs on a flat surface to avoid getting bits of the shell in your food.</p>
+                    <p>2.] Season every step of the cooking process to prevent over-salting at the end...</p>
+                    <p>3.] But if you do add too much salt, throw a quartered potato in to tone down the flavor and absorb some of the excess.</p>
+                    <strong>4.] Use pasta water to create a pasta sauce.<br> If you thought your pasta tasted good before, wait until you try this trick. 
+                        Before dumping used pasta water, add a cup of it to your sauce pan. Then, add the pasta directly into the skillet. The salty water will add more flavor to your dish. 
+                        Your taste buds will appreciate it—and the texture will be spot on.</strong>
+
+                </div>
+                
+              </div>
+              <img src="https://s15.postimg.cc/temvv7u4r/recipe.jpg" alt="" class="card-media2" />
+            </div>
+            <div class="card-shadow"></div>
+          </div>
+          
+    </section>
+    <section class="blahh">
+        <br><br><br><br>
+        nxksnskxkxs
+    </section>
+
+ <script  src="js/bundle.js"></script> 
+ <script>
+    //FOR THE DATE
+      let dateobj = new Date;
+
+      let date= dateobj.getDate();
+      let month= dateobj.getMonth() + 1;
+      let year= dateobj.getFullYear();
+      let today= date + "/" + month + "/" + year;
+      
+      var new_tag= document.createElement("p");
+      var node= document.createTextNode(today);
+      new_tag.appendChild(node);
+
+      var element= document.getElementById("date");
+      element.appendChild(new_tag);
+
+    //FOR TIP
+        let day= dateobj.getDay();
+
+        var tip_tag= document.createElement("p")
+        var element_tag= document.getElementById('tips')
+
+        switch(day){
+            case 0:
+                var tip= document.createTextNode("Eat nuts. Despite being high in fat, nuts are incredibly nutritious and healthy. Studies demonstrate that nuts can help you lose weight and may help fight type 2 diabetes and heart disease");
+                tip_tag.appendChild(tip)
+                break;
+            case 1:
+                var tip= document.createTextNode("Don’t overcook or burn your meat. Meat can be a nutritious and healthy part of your diet. It’s very high in protein and contains various important nutrients. However, problems occur when meat is overcooked or burnt. This can lead to the formation of harmful compounds that raise your risk of cancer");
+                tip_tag.appendChild(tip)
+                break;
+            case 2:
+                var tip= document.createTextNode("Don’t forget the dairy. Complete your meal with a cup of fat-free or low-fat milk. You will get the same amount of calcium and other essential nutrients as whole milk but fewer calories. Don’t drink milk? Try a soy beverage (soymilk) as your drink or include low-fat yogurt in your meal or snack.");
+                tip_tag.appendChild(tip)
+                break;
+            case 3:
+                var tip= document.createTextNode("Satisfy your sweet tooth in a healthy way. Indulge in a naturally sweet dessert dish—fruit! Serve a fresh fruit salad or a fruit parfait made with yogurt. For a hot dessert, bake apples and top with cinnamon.");
+                tip_tag.appendChild(tip)
+                break;
+            case 4:
+                var tip= document.createTextNode("Avoid extra fat. Using heavy gravies or sauces will add fat and calories to otherwise healthy choices. Try steamed broccoli with a sprinkling of low-fat parmesan cheese or a squeeze of lemon.");
+                tip_tag.appendChild(tip)
+                break;
+            case 5:
+                var tip= document.createTextNode("Eat eggs, yolk and all. Whole eggs are so nutritious that they’re often termed “nature’s multivitamin.” It’s a myth that eggs are bad for you because of their cholesterol content. Studies show that they have no effect on blood cholesterol in the majority of people");
+                tip_tag.appendChild(tip)
+                break;
+            case 6:
+                var tip= document.createTextNode("Eat whole grains more often Choose whole grains like brown rice and whole-grain pastas and breads more often. Foods with a high-fiber content can help give you a feeling of fullness and also provide key nutrients");
+                tip_tag.appendChild(tip)
+                break;
+
+        }
+        element_tag.appendChild(tip_tag)
+
+
+    
+  </script>
+</body>
+
+</html>
